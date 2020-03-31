@@ -1,0 +1,34 @@
+{
+  "name": "@spotify/eslint-config-oss",
+  "description": "ESLint config for use in Spotify's open source JS/TS projects",
+  "author": "Paul Marbach",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spotify/eslint-config-oss.git"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "lint": "web-scripts lint",
+    "commit": "web-scripts commit",
+    "release": "web-scripts release",
+    "prepare": "web-scripts audit"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "web-scripts commitmsg",
+      "pre-commit": "web-scripts precommit --no-tests"
+    }
+  },
+  "devDependencies": {
+    "@spotify/web-scripts": "^6.1.0",
+    "husky": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "dependencies": {
+    "eslint-plugin-notice": "^0.8.9"
+  }
+}
