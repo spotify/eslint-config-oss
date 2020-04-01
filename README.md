@@ -1,4 +1,6 @@
 # @spotify/eslint-config-oss
+[![Actions Status](https://github.com/spotify/eslint-config-oss/workflows/Tests/badge.svg)](https://github.com/spotify/web-scripts/actions)
+[![Version](https://img.shields.io/npm/v/@spotify/eslint-config-oss.svg)](https://www.npmjs.com/package/@spotify/eslint-config-oss)
 
 A simple ESLint config which, when extended onto your ESLint config, will show alerts when required license headers are missing from your source files in Spotify open source projects.
 
