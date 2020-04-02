@@ -21,6 +21,9 @@
       "pre-commit": "web-scripts precommit --no-tests --no-typecheck"
     }
   },
+  "dependencies": {
+    "eslint-plugin-notice": "^0.8.9"
+  },
   "devDependencies": {
     "@spotify/web-scripts": "^6.1.0",
     "husky": "^4.0.0"
@@ -28,7 +31,7 @@
   "peerDependencies": {
     "eslint": ">=6"
   },
-  "dependencies": {
-    "eslint-plugin-notice": "^0.8.9"
+  "publishConfig": {
+    "access": "public"
   }
 }
