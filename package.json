@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/spotify/eslint-config-oss.git"
   },
+  "license": "Apache-2.0",
   "version": "1.0.0",
   "main": "./index.js",
   "scripts": {
