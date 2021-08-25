@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@cortexapps', './index.js'],
+  extends: ['./index.js'],
 }
