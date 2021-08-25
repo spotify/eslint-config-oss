@@ -7,7 +7,7 @@
     "url": "git+https://github.com/cortexapps/eslint-config-oss.git"
   },
   "license": "Apache-2.0",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "main": "./index.js",
   "dependencies": {
     "eslint-plugin-notice": "^0.9.10"
