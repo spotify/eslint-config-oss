@@ -1,10 +1,10 @@
 {
-  "name": "@spotify/eslint-config-oss",
-  "description": "ESLint config for use in Spotify's open source JS/TS projects",
-  "author": "Paul Marbach",
+  "name": "@cortexapps/eslint-config-oss",
+  "description": "ESLint config for use in Cortex open source JS/TS projects",
+  "author": "Nikhil Unni",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spotify/eslint-config-oss.git"
+    "url": "git+https://github.com/cortexapps/eslint-config-oss.git"
   },
   "license": "Apache-2.0",
   "version": "0.0.0-development",

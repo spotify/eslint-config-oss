@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@spotify', './index.js'],
+  extends: ['@cortexapps', './index.js'],
 }
