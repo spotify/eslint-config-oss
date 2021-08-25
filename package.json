@@ -9,24 +9,11 @@
   "license": "Apache-2.0",
   "version": "0.0.0-development",
   "main": "./index.js",
-  "scripts": {
-    "lint": "web-scripts lint",
-    "commit": "web-scripts commit",
-    "release": "web-scripts release",
-    "prepare": "web-scripts audit"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "web-scripts commitmsg",
-      "pre-commit": "web-scripts precommit --no-tests --no-typecheck"
-    }
-  },
   "dependencies": {
     "eslint-plugin-notice": "^0.9.10"
   },
   "devDependencies": {
-    "@spotify/web-scripts": "^6.1.0",
-    "husky": "^4.0.0"
+    "eslint": "^7.32.0"
   },
   "peerDependencies": {
     "eslint": ">=6"
