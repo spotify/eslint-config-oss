@@ -10,7 +10,12 @@
   "version": "0.0.1",
   "main": "./index.js",
   "dependencies": {
-    "eslint-plugin-notice": "^0.9.10"
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-notice": "^0.9.10",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0"
@@ -20,5 +25,41 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "react-app",
+      "plugin:react/recommended"
+    ],
+    "ignorePatterns": [
+      "src/assets/vendor/",
+      "node_modules"
+    ],
+    "rules": {
+      "react/no-unescaped-entities": "off",
+      "react/prop-types": 0,
+      "@typescript-eslint/no-shadow": "error",
+      "react/display-name": 0,
+      "react/jsx-first-prop-new-line": [
+        2,
+        "multiline"
+      ],
+      "react/jsx-max-props-per-line": [
+        2,
+        {
+          "maximum": 1,
+          "when": "multiline"
+        }
+      ],
+      "react/jsx-indent-props": [
+        2,
+        2
+      ],
+      "react/jsx-closing-bracket-location": [
+        2,
+        "tag-aligned"
+      ]
+    }
   }
 }
